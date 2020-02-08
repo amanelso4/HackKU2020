@@ -1,16 +1,14 @@
 export const citylist = [
-
     {
-      "Name": "Lawrence",
+      "Name": "Overnight",
       "State": "KS"
     },
     {
-      "Name": "New York",
-      "State": "NY"
+      "Name": "2-Day",
+      "State": "KS"
     },
     {
-      "Name": "St. Louis",
+      "Name": "Postal",
       "State": "MO"
     }
-    
   ]

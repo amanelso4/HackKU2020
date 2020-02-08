@@ -16,6 +16,6 @@ export class CitiesService {
     private http: HttpClient
   ) { }
 
-    NameOfCity: string;
+    NameOfCity: string = "Lawrence";
 
 }
