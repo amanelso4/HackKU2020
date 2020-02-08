@@ -34,7 +34,7 @@ export const citylist: City[] =
     Attraction: ""
     },
     { 
-      Name: "Kansas",
+      Name: "Lawrence",
      State: "KS",
      COL: 93,
      Population: 96892,
