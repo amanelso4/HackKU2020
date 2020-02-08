@@ -25,10 +25,22 @@ pop: number;
 image: string;
 link: string;
 att: string;
+jan: number;
+feb: number;
+mar: number;
+ap: number;
+ma: number;
+ju: number;
+jul: number;
+aug: number;
+sep: number;
+oct: number;
+nov: number;
+dec: number;
 load()
 {
   
-  for(let i = 0; i<3; i++)
+  for(let i = 0; i<6; i++)
   {
     if (this.cities[i].Name == this.CitiesService.NameOfCity)
     {
@@ -39,6 +51,18 @@ load()
       this.image = this.cities[i].ImageLink;
       this.link = this.cities[i].Link;
       this.att = this.cities[i].Attraction;
+      this.jan = this.cities[i].Jan;
+      this.feb = this.cities[i].Feb;
+      this.mar = this.cities[i].March;
+      this.ap = this.cities[i].April;
+      this.ma = this.cities[i].May;
+      this.ju = this.cities[i].June;
+      this.jul = this.cities[i].July;
+      this.aug = this.cities[i].Aug;
+      this.sep = this.cities[i].Sept;
+      this.oct = this.cities[i].Oct;
+      this.nov = this.cities[i].Nov;
+      this.dec = this.cities[i].Dec;
     
     }
   }
