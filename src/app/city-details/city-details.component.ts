@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CityList } from './../assets/cities.ts';
+//import { CityList } from './../../assets/cities';
 
 @Component({
   selector: 'app-city-details',
