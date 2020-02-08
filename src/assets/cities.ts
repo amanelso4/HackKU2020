@@ -1,16 +1,15 @@
-export const citylist = [
+export class City {
+  Name: string;
+  State: string;
+  constructor(name: string, state: string) {
+    this.Name = name;
+    this.State = state;
+}
+}
 
-    {
-      "Name": "Lawrence",
-      "State": "KS"
-    },
-    {
-      "Name": "New York",
-      "State": "NY"
-    },
-    {
-      "Name": "St. Louis",
-      "State": "MO"
-    }
-    
-  ]
+export const citylist: City[] = 
+[
+   { "Name": "Lawrence", State: "Available" },
+   { "Name": "St. Louis", State: "Ready" },
+   { Name: "New York", State: "Started" }
+];
