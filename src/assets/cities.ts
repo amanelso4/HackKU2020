@@ -27,11 +27,11 @@ export const citylist: City[] =
    { 
      Name: "New York",
     State: "NY",
-    COL: 0,
-    Population: 0,
-    ImageLink: "",
-    Link: "",
-    Attraction: ""
+    COL: 187,
+    Population: 8770000,
+    ImageLink: "https://specials-images.forbesimg.com/imageserve/5d93909224fbf10007b8a1fd/960x0.jpg?fit=scale",
+    Link: "https://www1.nyc.gov/",
+    Attraction: "Statue of Liberty, Central Park, Times Square, Empire State Building, Rockefeller Center, Grand Central Station"
     },
     { 
       Name: "Lawrence",
