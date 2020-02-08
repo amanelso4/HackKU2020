@@ -20,6 +20,11 @@ export class CityDetailsComponent implements OnInit {
   }
 name: string;
 state: string;
+cost: number;
+pop: number;
+image: string;
+link: string;
+att: string;
 load()
 {
   
@@ -29,6 +34,12 @@ load()
     {
       this.name = this.cities[i].Name;
       this.state = this.cities[i].State;
+      this.cost = this.cities[i].COL;
+      this.pop = this.cities[i].Population;
+      this.image = this.cities[i].ImageLink;
+      this.link = this.cities[i].Link;
+      this.att = this.cities[i].Attraction;
+    
     }
   }
   
