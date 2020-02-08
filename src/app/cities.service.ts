@@ -16,9 +16,5 @@ export class CitiesService {
     private http: HttpClient
   ) { }
 
-  getSingleCity(Name: string): Observable<City> {
-    return this.http.get<Form>(`${this.formUrl}/${formNumber}`)
-      .pipe(catchError(this.handleError));
-  }
 
 }
