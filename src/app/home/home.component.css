@@ -83,3 +83,54 @@ h2
     cursor: pointer;
     border-radius: 5px;
 }
+
+.saintLouis
+{
+    transition: .5s ease;
+    position: absolute;
+    top: 64.75%;
+    left: 55.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 6px 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.chicago
+{
+    transition: .5s ease;
+    position: absolute;
+    top: 58%;
+    left: 58.25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 6px 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.houston
+{
+    transition: .5s ease;
+    position: absolute;
+    top: 87%;
+    left: 49.25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 6px 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
