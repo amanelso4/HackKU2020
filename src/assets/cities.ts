@@ -87,7 +87,7 @@ export const citylist: City[] =
     Dec: (68+49)/2
   },
   { 
-    Name: "St Louis",
+    Name: "St. Louis",
     State: "MO",
     COL: 81,
     Population: 302838,
