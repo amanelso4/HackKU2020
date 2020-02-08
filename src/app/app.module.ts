@@ -11,6 +11,7 @@ import { CityDetailsComponent } from './city-details/city-details.component';
 const appRoutes: Routes = [
   {path: 'home', component: HomeComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
+  {path: 'city', component: CityDetailsComponent},
 ];
 
 @NgModule({
