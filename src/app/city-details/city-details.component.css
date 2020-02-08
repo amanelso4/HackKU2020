@@ -33,7 +33,27 @@ section
 {
     position: absolute;
     width: 40px;
-    background: rgba(0,0,0,1);
+    background: rgba(0,0,0,.1);
     bottom:0;
     transform: translateX(-50%);
+}
+.box .months .graph:before
+{
+    content:'';
+    position: absolute;
+    top:2px;
+    left:2px;
+    right:2px;
+    bottom:0;
+    background:linear-gradient(0deg,#003ba5,#009ffe);
+}
+.box .months .graph:after
+{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:100%;
+    background: rgba(255,255,255,.1);
 }
