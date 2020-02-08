@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { citylist } from '../../assets/cities';
+import { citylist, City } from '../../assets/cities';
 import { CitiesService } from '../cities.service';
 import { Statement } from '@angular/compiler';
 
@@ -9,7 +9,7 @@ import { Statement } from '@angular/compiler';
   styleUrls: ['./city-details.component.css']
 })
 export class CityDetailsComponent implements OnInit {
-  public cities: any[] = citylist;
+  public cities: City[] = citylist;
   constructor(
     private CitiesService: CitiesService
   ) {
@@ -18,12 +18,12 @@ export class CityDetailsComponent implements OnInit {
 
   ngOnInit() {
   }
-
 name: string;
 state: string;
 load()
 {
-  for(let i = 0; i<100; i++)
+  
+  for(let i = 0; i<3; i++)
   {
     if (this.cities[i].Name == this.CitiesService.NameOfCity)
     {
@@ -31,6 +31,7 @@ load()
       this.state = this.cities[i].State;
     }
   }
+  
 }
 
 }
