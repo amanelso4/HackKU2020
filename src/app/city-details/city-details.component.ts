@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { citylist } from './../../assets/cities';
 
 @Component({
   selector: 'app-city-details',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./city-details.component.css']
 })
 export class CityDetailsComponent implements OnInit {
-
+  public cities: any[] = citylist;
   constructor() { }
 
   ngOnInit() {
