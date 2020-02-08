@@ -51,5 +51,41 @@ export const citylist: City[] =
      Link: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/20190616154621%21Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg/1200px-20190616154621%21Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg",
      Attraction: "Universal Studios Hollywood, Disneyland Park, Griffith Observatory, Hollywood Sign, Hollywood Walk-of-Fame, Hollywood Boulevard"
      },
+     { 
+      Name: "St Louis",
+     State: "MO",
+     COL: 81,
+     Population: 302838,
+     ImageLink: "https://www.wheretraveler.com/sites/default/files/styles/promoted_image/public/helicopter10.29.jpg?itok=Hpczk6GE&timestamp=1484692151",
+     Link: "https://www.stlouis-mo.gov/",
+     Attraction: "Gateway Arch, Missouri Botantical Garden, City Museum, Saint Louis Zoo, Busch Stadium"
+     },
+     { 
+      Name: "Chicago",
+     State: "IL",
+     COL: 107,
+     Population: 2705994,
+     ImageLink: "https://s3-prod.chicagobusiness.com/GettyImages-1057157166.jpg",
+     Link: "https://www.chicago.gov/city/en.html",
+     Attraction: "Millennium Park, Willis Tower, Navy Pier, Skydeck Chicago, Shedd Aquarium"
+     },
+     { 
+      Name: "Houston",
+     State: "TX",
+     COL: 97,
+     Population: 2162000,
+     ImageLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Houston_from_Sabine_Park.jpg/600px-Houston_from_Sabine_Park.jpg",
+     Link: "https://www.houstontx.gov/",
+     Attraction: "Space Center Houston, Houston Museum of Natural Science, Houston Zoo, Johnson Space Center"
+     },
+     { 
+      Name: "",
+     State: "",
+     COL: 1,
+     Population: 1,
+     ImageLink: "",
+     Link: "",
+     Attraction: ""
+     },
 
 ];
