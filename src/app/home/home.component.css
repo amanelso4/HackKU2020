@@ -31,14 +31,20 @@ h2
 .usMap
 {
     text-align: center;
-    transition: .5s ease;   
+    transition: .5s ease;
+    width: 850px;
+    margin: auto;
+    position:relative;
+}
+.usMap img {
+    width: 850px;
 }
 .lawrence
 {
     transition: .5s ease;
     position: absolute;
-    top: 64%;
-    left: 50%;
+    top: 272px;
+    left: 424px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -54,8 +60,8 @@ h2
 {
     transition: .5s ease;
     position: absolute;
-    top: 56%;
-    left: 72%;
+    top: 207px;
+    left: 733px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -71,8 +77,8 @@ h2
 {
     transition: .5s ease;
     position: absolute;
-    top: 70%;
-    left: 26%;
+    top: 321px;
+    left: 84px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -88,8 +94,8 @@ h2
 {
     transition: .5s ease;
     position: absolute;
-    top: 64.75%;
-    left: 55.5%;
+    top: 277px;
+    left: 503px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -105,8 +111,8 @@ h2
 {
     transition: .5s ease;
     position: absolute;
-    top: 58%;
-    left: 58.25%;
+    top: 224px;
+    left: 542px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -122,8 +128,8 @@ h2
 {
     transition: .5s ease;
     position: absolute;
-    top: 87%;
-    left: 49.25%;
+    top: 457px;
+    left: 418px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
