@@ -49,7 +49,7 @@ export const citylist: City[] =
     State: "KS",
     COL: 93,
     Population: 97286,
-    ImageLink: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fadmissions.ku.edu%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fcaptioned_media%2Fpublic%2F2017-03%2FRS12514_103274_ExtdCanvas%2520%25281%2529_0.jpg%3Fitok%3D6Q0Eiu9m&imgrefurl=https%3A%2F%2Fadmissions.ku.edu%2Fvisiting-campus%2Flawrence&tbnid=MlUHKX0tzu6HvM&vet=12ahUKEwj8qNqF8cLnAhUExKwKHcetDDEQMygCegUIARCDAg..i&docid=riG5Lhbg6qDqTM&w=2334&h=1312&q=lawrence%20ks&ved=2ahUKEwj8qNqF8cLnAhUExKwKHcetDDEQMygCegUIARCDAg",
+    ImageLink: "https://admissions.ku.edu/sites/default/files/styles/captioned_media/public/2017-03/RS12514_103274_ExtdCanvas%20%281%29_0.jpg?itok=6Q0Eiu9m",
     Link: "lawrenceks.org",
     Attraction: "Clinton State Park, Spencer Museum of Art, Massachussets Street, KU Natural History Museum, University of Kansas, Haskell Indian Nations University, Watkins Museum of History, Castle Tea Room",
     Jan: (41+20)/2,
