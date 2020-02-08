@@ -1,0 +1,13 @@
+Lawrence,KS:
+    Cost of Living: 95.2
+    Population: 97,286
+    Website: https://lawrenceks.org/
+    Attractions:
+        Clinton State Park
+        Spencer Museum of Art
+        Massachussets Street
+        KU Natural History Museum
+        University of Kansas
+        Haskell Indian Nations University
+        Watkins Museum of History
+        Castle Tea Room
