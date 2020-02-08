@@ -1,22 +1,29 @@
 body
 {
+    position: absolute;
+    left:40%;
+    top:12%;
     margin:0;
     padding:0;
     font-family:sans-serif;
+    font-size: x-large;
+}
+body .image
+{
+    position:absolute;
 }
 section
 {
     width:100%;
     height:100vh;
-    background:linear-gradient(0deg,#0039fe,#001050);
 }
 .box
 {
     position: absolute;
-    top:50%;
-    left:50%;
+    top:40%;
+    left:70%;
     transform: translate(-50%,-50%);
-    width:550px;
+    width:750px;
     height: 300px;
     background:transparent;
     border-bottom:1px solid #0000;
@@ -64,18 +71,18 @@ section
     left:50%;
     transform: translateX(-50%);
     text-align: center;
-    color:#fff;
+    color:#000;
     font-weight: bold;
 }
 .box .months .name
 {
     position: absolute;
     bottom: -30px;
-    left:50%;
+    left:0;
     transform: translateX(-50%);
-    text-align: center;
+    text-align: left;
     color:#fff;
     background: #001e8a;
-    padding:2px 6px;
-    border-radius: 4px;
+    padding:2px 8px;
+    border-radius: 4px;   
 }
