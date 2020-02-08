@@ -1,14 +1,14 @@
 <button routerLink="/home">Back</button>
 <h1> {{ this.name }} </h1>
 <div class="image">
-    <img src="https://admissions.ku.edu/sites/default/files/styles/captioned_media/public/2017-03/RS12514_103274_ExtdCanvas%20%281%29_0.jpg?itok=6Q0Eiu9m" target="blank" width="38%" height="60%">
+    <img [src]="this.image" target="blank" width="38%" height="60%">
     </div>
 <body>Pop: {{ this.pop }}<br>Cost of Living: {{ this.cost }} <br>Weather Averages:<br></body>
 <section>
     <div class="box">
         <div class="months">
-            <div class="graph" style="height: 50%">
-                <div class="degrees">50°</div>
+            <div class="graph" style="height: 100%">
+                <div class="degrees">{{ this.jan }}</div>
             </div>
             <div class="name">Jan</div>
         </div>
