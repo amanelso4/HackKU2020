@@ -207,7 +207,10 @@ h2
     cursor: pointer;
     border-radius: 5px;
 }
-
+.directions
+{
+    font-size:24px;
+}
 .denver
 {
     transition: .5s ease;
@@ -228,4 +231,5 @@ button:hover {
     background-color: grey;
     border: 5px solid black;
 }
+
 
