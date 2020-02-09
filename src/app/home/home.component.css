@@ -208,3 +208,24 @@ h2
     border-radius: 5px;
 }
 
+.denver
+{
+    transition: .5s ease;
+    position: absolute;
+    top: 265px;
+    left: 295px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 6px 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: grey;
+    border: 5px solid black;
+}
+
