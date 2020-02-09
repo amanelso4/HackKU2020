@@ -232,4 +232,8 @@ button:hover {
     border: 5px solid black;
 }
 
+body {
+    background-color: lightblue;
+}
+
 
