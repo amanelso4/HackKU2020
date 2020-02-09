@@ -240,7 +240,7 @@ export const citylist: City[] =
     Population: 619968,
     ImageLink: "https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/north-america/denver-travel.adapt.1900.1.jpg",
     Link: "https://www.denvergov.org/content/denvergov/en.html",
-    Attraction: "Mountains, Denver Broncos, Denver Museum of Nature and Science, Denver Zoo, Utah Jazz",
+    Attraction: "Mountains, Denver Broncos, Denver Museum of Nature and Science, Denver Zoo, Denver Nuggets",
     Jan: 34.5,
     Feb: 35,
     March: 43.5,
