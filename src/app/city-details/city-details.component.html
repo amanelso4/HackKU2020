@@ -1,5 +1,68 @@
+<header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</header>
+
 <button routerLink="/home">Back</button>
 <h1> {{ this.name }} </h1>
+<<<<<<< HEAD
+
+
+<div class="col-lg-6">
+    <img [src]="this.image" target="blank" width="100%">
+</div>
+
+<div class = "col-lg-6">
+        <div class = "Label">Pop:</div>
+        <div class = "info"> {{ this.pop }} </div>
+        <div class = "Label">Cost of Living: </div>
+        <div class = "info">{{ this.cost }}</div>
+        <div class = "Label">Attractions: </div>
+        <div class = "info">{{ this.att }} </div>
+<br>
+<br>
+        For more info: {{ this.link }}<br><br>
+</div>
+
+<br>
+<div class = "Label">Average Weather Patterns: </div>
+<table>
+        <tr>
+            <td>Month</td>
+            <td>January</td>
+            <td>February</td>
+            <td>March</td>
+            <td>April</td>
+            <td>May</td>
+            <td>June</td>
+            <td>July</td>
+            <td>August</td>
+            <td>September</td>
+            <td>October</td>
+            <td>November</td>
+            <td>December</td>
+        </tr>
+        <tr>
+                <td>Avg. Temp.</td>
+                <td> {{ this.jan }}</td>
+                <td>{{ this.feb }}</td>
+                <td>{{ this.ma }}</td>
+                <td>{{ this.ap }}</td>
+                <td>{{ this.ma }}</td>
+                <td>{{ this.ju }}</td>
+                <td>{{ this.jul }}</td>
+                <td>{{ this.aug }}</td>
+                <td>{{ this.sep }}</td>
+                <td>{{ this.oct }}</td>
+                <td>{{ this.nov }}</td>
+                <td>{{ this.dec }}</td>
+            </tr>
+    </table>
+
+=======
 <div class="image">
     <img [src]="this.image" target="blank" width="38%" height="60%">
     </div>
@@ -84,4 +147,5 @@
         </div>
     </div>        
 </section>
+>>>>>>> 1a52464437c4bcf433301a8c8f5a313d9ca538e3
 
