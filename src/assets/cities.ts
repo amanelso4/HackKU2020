@@ -192,6 +192,27 @@ export const citylist: City[] =
     Dec: 0
   },
   { 
+    Name: "Miami",
+    State: "Florida",
+    COL: 109,
+    Population: 463347,
+    ImageLink: "https://www.outfrontmedia.com/-/media/images/ofm/markets/miami/miami-hero.ashx",
+    Link: "https://www.miamigov.com/Home",
+    Attraction: "Beach Access, Kennedy Space Center, Miami Seaquarium, South Pointe Pier, Venecian Pool",
+    Jan: 69,
+    Feb: 70,
+    March: 72,
+    April: 75,
+    May: 79,
+    June: 82,
+    July: 83,
+    Aug: 84,
+    Sept: 82,
+    Oct: 79,
+    Nov: 75,
+    Dec: 71
+  },
+  {
     Name: "Las Vegas",
     State: "NV",
     COL: 0,
@@ -233,5 +254,4 @@ export const citylist: City[] =
     Nov: 0,
     Dec: 0
   },
-
-];
+]
