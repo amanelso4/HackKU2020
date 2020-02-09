@@ -233,5 +233,26 @@ export const citylist: City[] =
     Nov: 0,
     Dec: 0
   },
+  { 
+    Name: "",
+    State: "git ",
+    COL: 0,
+    Population: 0,
+    ImageLink: "",
+    Link: "",
+    Attraction: "",
+    Jan: 0,
+    Feb: 0,
+    March: 0,
+    April: 0,
+    May: 0,
+    June: 0,
+    July: 0,
+    Aug: 0,
+    Sept: 0,
+    Oct: 0,
+    Nov: 0,
+    Dec: 0
+  },
 
 ];
