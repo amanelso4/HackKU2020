@@ -172,7 +172,7 @@ export const citylist: City[] =
   },
   { 
     Name: "Miami",
-    State: "Florida",
+    State: "FLA",
     COL: 109,
     Population: 463347,
     ImageLink: "https://www.outfrontmedia.com/-/media/images/ofm/markets/miami/miami-hero.ashx",
@@ -234,6 +234,27 @@ export const citylist: City[] =
     Dec: 41.5
   },
   {
+    Name: "Denver",
+    State: "CO",
+    COL: 129,
+    Population: 619968,
+    ImageLink: "https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/north-america/denver-travel.adapt.1900.1.jpg",
+    Link: "https://www.denvergov.org/content/denvergov/en.html",
+    Attraction: "Mountains, Denver Broncos, Denver Museum of Nature and Science, Denver Zoo, Utah Jazz",
+    Jan: 34.5,
+    Feb: 35,
+    March: 43.5,
+    April: 50,
+    May: 59,
+    June: 70.5,
+    July: 76.5,
+    Aug: 74.5,
+    Sept: 66,
+    Oct: 52.5,
+    Nov: 42,
+    Dec: 33
+  },
+  {
     Name: "",
     State: "",
     COL: 0,
@@ -254,5 +275,4 @@ export const citylist: City[] =
     Nov: 0,
     Dec: 0
   },
-
 ];
