@@ -174,3 +174,37 @@ h2
     border-radius: 5px;
 }
 
+.nashville
+{
+    transition: .5s ease;
+    position: absolute;
+    top: 322px;
+    left: 571px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 6px 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.lasVegas
+{
+    transition: .5s ease;
+    position: absolute;
+    top: 294px;
+    left: 140px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 6px 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
