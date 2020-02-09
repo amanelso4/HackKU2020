@@ -171,27 +171,6 @@ export const citylist: City[] =
     Dec: (46+39)/2
   },
   { 
-    Name: "",
-    State: "",
-    COL: 0,
-    Population: 0,
-    ImageLink: "",
-    Link: "",
-    Attraction: "",
-    Jan: 0,
-    Feb: 0,
-    March: 0,
-    April: 0,
-    May: 0,
-    June: 0,
-    July: 0,
-    Aug: 0,
-    Sept: 0,
-    Oct: 0,
-    Nov: 0,
-    Dec: 0
-  },
-  { 
     Name: "Miami",
     State: "Florida",
     COL: 109,
@@ -215,6 +194,27 @@ export const citylist: City[] =
   {
     Name: "Las Vegas",
     State: "NV",
+    COL: 112,
+    Population: 644644,
+    ImageLink: "https://assets.simpleviewcms.com/simpleview/image/upload/c_fill,h_350,q_90,w_750/v1/clients/lasvegas/14679F47EC9B965E4A510BFB528895CE_4ba5c1d9-b2fa-4f92-b77e-0baed3c483aa.jpg",
+    Link: "https://www.lasvegasnevada.gov/",
+    Attraction: "Bellagio Hotel and Casino, Las Vegas Strip, Adventure Dome Theme Park, Red Rock Canyon National Conservation Area",
+    Jan: (59+28)/2,
+    Feb: (66+33)/2,
+    March: (72+39)/2,
+    April: (81+45)/2,
+    May: (90+53)/2,
+    June: (102+61)/2,
+    July: (107+67)/2,
+    Aug: (104+66)/2,
+    Sept: (96+57)/2,
+    Oct: (83+46)/2,
+    Nov: (70+35)/2,
+    Dec: (60+27)/2
+  },
+  { 
+    Name: "Nashville",
+    State: "TN",
     COL: 0,
     Population: 0,
     ImageLink: "",
@@ -254,4 +254,26 @@ export const citylist: City[] =
     Nov: 50.5,
     Dec: 41.5
   },
-]
+  {
+    Name: "",
+    State: "",
+    COL: 0,
+    Population: 0,
+    ImageLink: "",
+    Link: "",
+    Attraction: "",
+    Jan: 0,
+    Feb: 0,
+    March: 0,
+    April: 0,
+    May: 0,
+    June: 0,
+    July: 0,
+    Aug: 0,
+    Sept: 0,
+    Oct: 0,
+    Nov: 0,
+    Dec: 0
+  },
+
+];
