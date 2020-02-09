@@ -50,7 +50,7 @@ export const citylist: City[] =
     COL: 93,
     Population: 97286,
     ImageLink: "https://admissions.ku.edu/sites/default/files/styles/captioned_media/public/2017-03/RS12514_103274_ExtdCanvas%20%281%29_0.jpg?itok=6Q0Eiu9m",
-    Link: "lawrenceks.org",
+    Link: "https://lawrenceks.org/",
     Attraction: "Clinton State Park, Spencer Museum of Art, Massachussets Street, KU Natural History Museum, University of Kansas, Haskell Indian Nations University, Watkins Museum of History, Castle Tea Room",
     Jan: (41+20)/2,
     Feb: (46+26)/2,
