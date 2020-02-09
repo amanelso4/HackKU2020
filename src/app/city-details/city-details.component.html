@@ -5,9 +5,15 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </header>
+<<<<<<< HEAD
 <div class = "body">
         <button routerLink="/home" style = "align-self: center;">Back</button>
 <h1> {{ this.name }} </h1>
+=======
+
+<button routerLink="/home">Back</button>
+<h1> {{ this.name }},{{this.state}} </h1>
+>>>>>>> e3a835cbc4279bf35d7b5c012b901521cde223b6
 
 
 <div class="col-lg-6">
@@ -15,13 +21,17 @@
 </div>
 
 <div class = "col-lg-6">
-        <div class = "Label">Pop:</div>
+        <div class = "Label">Population:</div>
         <div class = "info"> {{ this.pop }} </div>
         <div class = "Label">Cost of Living: </div>
         <div class = "info">{{ this.cost }}</div>
         <div class = "Label">Attractions: </div>
         <div class = "info">{{ this.att }} </div>
+<<<<<<< HEAD
 <br><br><br>
+=======
+<br>
+>>>>>>> e3a835cbc4279bf35d7b5c012b901521cde223b6
         For more info: {{ this.link }}<br><br>
 </div>
 
@@ -48,18 +58,18 @@
         </tr>
         <tr>
                 <td>Avg. Temp.</td>
-                <td> {{ this.jan }}</td>
-                <td>{{ this.feb }}</td>
-                <td>{{ this.ma }}</td>
-                <td>{{ this.ap }}</td>
-                <td>{{ this.ma }}</td>
-                <td>{{ this.ju }}</td>
-                <td>{{ this.jul }}</td>
-                <td>{{ this.aug }}</td>
-                <td>{{ this.sep }}</td>
-                <td>{{ this.oct }}</td>
-                <td>{{ this.nov }}</td>
-                <td>{{ this.dec }}</td>
+                <td> {{ this.jan }}°F</td>
+                <td>{{ this.feb }}°F</td>
+                <td>{{ this.ma }}°F</td>
+                <td>{{ this.ap }}°F</td>
+                <td>{{ this.ma }}°F</td>
+                <td>{{ this.ju }}°F</td>
+                <td>{{ this.jul }}°F</td>
+                <td>{{ this.aug }}°F</td>
+                <td>{{ this.sep }}°F</td>
+                <td>{{ this.oct }}°F</td>
+                <td>{{ this.nov }}°F</td>
+                <td>{{ this.dec }}°F</td>
             </tr>
     </table>
 </div>
