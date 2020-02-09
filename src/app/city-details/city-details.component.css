@@ -116,10 +116,11 @@ table, th, td {
   table {
     width: 100%;
     padding: 15px;
+    border-radius: 10px;
   }
   
   th {
-    height: 50px;
+    height: 40px;
     text-align: left;
     background-color: #4CAF50;
     color: white;
@@ -136,11 +137,40 @@ table, th, td {
   }
 
   .Label {
-      padding: 10px;
+      padding: 5px;
       font-size: 20px;
+      font-weight: bold;
   }
 
   .info {
-      font-size: 15px;
+      font-size: 18px;
+      padding: 5px;
+  }
+
+  button {
+      padding: 15px;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      border: 1px solid black;
+      align-content: center;
+      right: 40%;
+      left: 40%;
+  }
+
+  button:hover {
+    background-color: grey;
+    color: white;
+  }
+
+  img {
+      border-radius: 10px;
+  }
+
+  .row {
+      border: 5px solid grey;
+      padding: 10px;
+  }
+
+  .body {
       padding: 10px;
   }
