@@ -1,6 +1,8 @@
 h1
 {
+    text-align:center;
     font-size: 50px;
+    font-family: serif;
 }
 
 .primary
@@ -18,97 +20,6 @@ body
     font-family:sans-serif;
     font-size: x-large;
 }
-body .image
-{
-    position:absolute;
-}
-
-.box
-{
-    position: absolute;
-    top:50%;
-    left: 70%;
-    transform: translate(-50%,-50%);
-    width:750px;
-    height: 300px;
-    background:transparent;
-    border-bottom:1px solid #0000;
-    border-left:1px solid #0000;
-    display:flex;
-}
-.box .months
-{
-    position: relative;
-    flex: 1;
-    text-align: center;
-}
-.box .months .graph
-{
-    position: absolute;
-    width: 40px;
-    background: rgba(0,0,0,.1);
-    bottom:0;
-    transform: translateX(-50%);
-}
-.box .months .graph:before
-{
-    content:'';
-    position: absolute;
-    top:2px;
-    left:2px;
-    right:2px;
-    bottom:0;
-    background:linear-gradient(0deg,#003ba5,#009ffe);
-}
-.box .months .graph:after
-{
-    content:'';
-    position: absolute;
-    top:0;
-    left:0;
-    width:50%;
-    height:100%;
-    background: rgba(255,255,255,.1);
-}
-.box .months .graph .degrees
-{
-    position: absolute;
-    top:-20px;
-    left:50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color:#000;
-    font-weight: bold;
-}
-.box .months .name
-{
-    position: absolute;
-    bottom: -30px;
-    left:0;
-    transform: translateX(-50%);
-    text-align: left;
-    color:#fff;
-    background: #001e8a;
-    padding:2px 8px;
-    border-radius: 4px;   
-}
-span
-{
-    text-align: right;
-    top:85%;
-}
-.info .attractions
-{
-    position: absolute;
-    top:70%;
-    left:45%;
-    font-size:xx-large;
-}
-.info .attractions .places
-{
-    font-size:medium;
-}
-
 table, th, td {
     border: 1px solid black;
   }
