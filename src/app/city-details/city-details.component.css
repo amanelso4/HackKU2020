@@ -89,3 +89,7 @@ table, th, td {
   .body {
       padding: 10px;
   }
+
+  .blue {
+    background-color: lightblue;
+  }
