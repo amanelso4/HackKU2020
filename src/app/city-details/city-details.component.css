@@ -89,3 +89,14 @@ table, th, td {
   .body {
       padding: 10px;
   }
+  hr
+  {
+    padding:0px;
+    display: block;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 50px;
+    border-color:lightblue;
+  }
