@@ -17,11 +17,12 @@ body
     top:18%;
     margin:0;
     padding:0;
-    font-family:sans-serif;
+    font-family:serif;
     font-size: x-large;
 }
 table, th, td {
     border: 1px solid black;
+    font-family:serif;
   }
 
   table {
@@ -51,11 +52,13 @@ table, th, td {
       padding: 5px;
       font-size: 20px;
       font-weight: bold;
+      font-family:serif;
   }
 
   .info {
       font-size: 18px;
       padding: 5px;
+      font-family:serif;
   }
 
   button {
@@ -65,6 +68,7 @@ table, th, td {
       border: 1px solid black;
       right: 40%;
       left: 40%;
+      font-family:serif;
   }
 
   button:hover {
